@@ -1,0 +1,41 @@
+.container {
+  display: grid;
+  grid-template-columns: 2.8fr 1.1fr;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+.head .month {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding-right: 30px;
+}
+.pressure {
+  width: 85%;
+  padding: 20px 10px 20px 0;
+  /* background-color: blue; */
+}
+.circle {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+.systo .circle {
+  background-color: #e66fd2;
+}
+.diasto .circle {
+  background-color: #8c6fe6;
+}
+.systo div,
+.diasto div {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+hr {
+  margin: 10px 3px;
+  color: rgba(240, 248, 255, 0.425);
+}

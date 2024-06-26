@@ -1,0 +1,41 @@
+.container {
+  background-color: white;
+  min-width: 310px;
+
+  border-radius: 8px;
+  /* height: 1100px; */
+  overflow: auto;
+  position: relative;
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  padding: 10px 20px;
+}
+.overflow {
+  padding: 10px 20px 10px 0;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 8px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(172, 108, 108);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

@@ -1,0 +1,28 @@
+.container {
+  background-color: white;
+  border-radius: 8px;
+  padding: 10px;
+  text-transform: capitalize;
+}
+.result {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid rgb(228, 222, 222);
+  padding: 0 8px;
+  gap: 10px;
+}
+.result h3 {
+  margin: 8px 0;
+}
+.result:hover {
+  background-color: rgba(0, 0, 0, 0.329);
+}
+.resultList {
+  max-height: 150px;
+  overflow: hidden;
+  overflow-y: auto;
+}
+.result svg {
+  height: 20px;
+}

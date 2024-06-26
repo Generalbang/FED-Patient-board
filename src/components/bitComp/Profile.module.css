@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+}
+.container {
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  gap: 0.4rem;
+  padding: 5px 8px;
+}
+.line {
+  border: 0.4px solid rgba(102, 102, 102, 0.397);
+  min-height: 30px;
+}
+.image {
+  width: 25px;
+}

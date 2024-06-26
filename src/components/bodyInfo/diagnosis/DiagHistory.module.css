@@ -1,0 +1,40 @@
+.container {
+  padding: 10px;
+  background-color: white;
+  border-radius: 8px;
+}
+.vitals {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.5rem;
+}
+.vitalbox:first-child {
+  background-color: rgba(146, 232, 235, 0.384);
+}
+.vitalbox:nth-child(2) {
+  background-color: rgba(236, 91, 91, 0.484);
+}
+.vitalbox:last-child {
+  background-color: rgba(236, 91, 91, 0.684);
+}
+.vitalbox {
+  margin-top: 10px;
+  padding: 10px;
+  /* width: 120px; */
+  border-radius: 8px;
+}
+.vitalbox img {
+  width: 50px;
+  margin-bottom: 10px;
+}
+.vitalbox h2 {
+  margin: 0;
+}
+.vitalbox h4 {
+  color: rgb(70, 69, 69);
+  text-transform: capitalize;
+  margin: 0;
+}
+.vitalbox p {
+  margin-bottom: 0px;
+}
